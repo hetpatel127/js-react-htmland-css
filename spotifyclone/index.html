@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>soptify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="/iamges/logo.svg" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1> Best of NPC - No copyright music</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="iamges/DJSnakeLetMeLoveYou.jpg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id='0' class="fa-solid songitemplay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="iamges/cover2.jpg" alt="1">
+                    <span class="songname">het</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id='1' class="fa-solid songitemplay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="iamges/cover3.jpg" alt="1">
+                    <span class="songname">T</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id='2'class="fa-solid songitemplay fa-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" name="range"  id="myprogressbar" min="0" value = "0" max="100">
+        <div class="icons">
+            
+            <i class="fa-solid  fa-2x fa-backward" id="previous"></i>
+            <i class="fa-solid  fa-2x fa-play" id="masterplay"></i>
+            <i class="fa-solid  fa-2x fa-forward" id="next"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="iamges/song.gif" width="42px" alt="" id="gif"> <span id="mastersongname"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/4c48c253ce.js" crossorigin="anonymous"></script>
+</body>
+</html>

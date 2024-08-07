@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+.brand img{
+    width: 44px;
+    padding: 0;
+    padding-right: 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    margin-left: 14px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("/iamges/wp11672155.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row-reverse;
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#myprogressbar{
+    width: 80vw;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: 10px;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 34px;
+    color: black;
+    margin-top: 12px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    margin-top: 50px;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
