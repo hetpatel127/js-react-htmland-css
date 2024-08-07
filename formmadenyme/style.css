@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+font-family:"Poppins";
+color:#001011;}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: #757780;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.costumer {
+    height: 50px; /* Keep height consistent */
+    width: 400px; /* Increase width */
+    background-color: white;
+    border-radius: 25px; /* Adjusted to maintain a rounded shape */
+    position: relative;
+    padding-left: 25px;
+    font-size: 1.15rem;
+    border: none;
+    
+}
+
+
+.boxes{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    
+}
+
+.btn{
+    height: 50px; /* Keep height consistent */
+    width: 400px; /* Increase width */
+    background-color: white;
+    border-radius: 25px; /* Adjusted to maintain a rounded shape */
+    border: none;
+    font-size: 1.15rem;
+}
+
+h1{
+    margin-top: -100px;
+}
+
+.trans:hover {
+    width: 450px;
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto; /* Adjust height for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .costumer, .btn {
+        width: 100%; /* Full width for input and button */
+        font-size: 1rem; /* Slightly smaller font size */
+    }
+
+    .boxes {
+        flex-direction: column; /* Stack the checkboxes and links */
+        width: 100%;
+    }
+
+    .box1, .box2 {
+        margin-bottom: 10px; /* Space between checkbox and link */
+    }
+
+    h1 {
+        margin-top: 0; /* Adjust margin for heading */
+    }
+}

@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.main{
+    height: 80vh;
+    width: 100%;
+    
+    background-image: url("/assets/backgroundimage.png");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.65 ;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    
+    width: 148px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.hero span:first-child {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero span:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero span:nth-child(3){
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    width: 883px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.inputbox {
+        height:56px ;
+        width: 370px;
+        border-radius: 4px;
+        font-size: 15px;
+        background-color: rgba(23, 23, 23, 0.9);
+        border: 0.1px solid rgb(127, 121, 121);
+        color: white;
+       
+        
+
+
+}
+
+.inputbtn{
+    height: 57px;
+    width: 208px;
+    border-radius: 4px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.over:hover{
+    background-color: rgb(121, 11, 11);
+   
+}
+
+.sepration{
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 11px;
+   
+}
+
+.signin{
+    width: 76px;
+    height: 32px;
+    text-align: center;
+    background-color: red;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+}
+
+.Language{
+    width: 122px;
+    height: 32px;
+    text-align: center;
+    background-color: rgba(23, 23, 23, 0.9);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: white;
+    border: 0.1px solid rgb(127, 121, 121);
+    margin-right: 13px;
+
+}
+
+.details{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    gap: 10px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+
+}
+
+.text1{
+    display: flex;
+    height: 360px;
+    width: 481px;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    
+
+
+}
+
+
+
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 499px;
+    background-size: cover;
+  
+
+}
+
+.heading1{
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom:  20px;
+}
+
+.smalltext{
+    font-size: 24px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 400;
+    width: 1000px;
+
+}
+
+.img1 img {
+    width: 1000px; /* Make the image take the full width of the container */
+   
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+
+
+}
+
+.text2{
+    display: flex;
+    height: 360px;
+    width: 481px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    
+
+    
+    
+    
+
+}
+
+.heading2{
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.smalltext2{
+    font-size: 24px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 400;
+    width: 600px;
+    margin-bottom: 10px;
+
+}
+.img2 img {
+    width: 600px; /* Make the image take the full width of the container */
+    margin-right: -250px;
+   
+}
+
+
+    
+    
+    
+
+
+
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+
+}
+.content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+
+
+}
+
+.text3{
+    display: flex;
+    height: 360px;
+    width: 481px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    margin-left: -100px;
+    
+
+    
+    
+    
+
+}
+
+.heading3{
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.smalltext3{
+    font-size: 24px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 400;
+    width: 600px;
+    margin-bottom: 10px;
+
+}
+.img3 img {
+    width: 668px; /* Make the image take the full width of the container */
+    margin-left: 281px;
+}
+
+.img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 499px;
+    background-size: cover;
+  
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+.content4 {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between text and image */
+    align-items: center;
+    width: 80%; /* Adjust width as needed */
+    height: 360px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%; /* Adjust width as needed */
+    color: white;
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.heading4 {
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.smalltext4 {
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.img4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Adjust width as needed */
+    height: 380px;
+}
+
+.img4 img {
+    width: 100%; /* Ensure image takes full width of container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 930px;
+    background-color: black;
+}
+
+.heading5 {
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.in1 {
+    font-size: 24px;
+    color:  white;
+    height: 84px;
+    width: 962px;
+    background-color: rgb(68, 64, 64);
+    margin: 5px 0; /* Add margin to space out input fields */
+    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.inputtabs {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Align input fields vertically */
+    align-items: center;
+    margin-top: 50px; /* Adjust margin to position inputs correctly */
+}
+
+.in1:hover{
+    background-color: rgb(58, 57, 57);
+}
+
+.pointer{
+   font-size: 24px;
+   margin-left: -20px;
+}
+
+.intext{
+    color: white;
+    width: 900px;
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.box6{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.contact{
+   
+    height: 35px;
+    width: 740px;
+    color: white;
+    margin-left: 75px;
+    font-size: 18px;
+    font-weight: 400;
+    
+   
+}
+
+.lists{
+    width: 900px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+
+
+   
+}
+
+.lists ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
